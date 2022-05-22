@@ -1,0 +1,99 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+:root {
+    color: blue;
+    --light-grey: #f7f7f7 --black: #000000 --white: #ffffff
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: lightseagreen;
+    padding: 1rem 0;
+    z-index: 999;
+}
+
+.navbar .container {
+    justify-content: space-between;
+}
+
+.site-brand {
+    color: #ffffff;
+    font-size: 2.4rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    opacity: 0.95;
+}
+
+.site-brand span {
+    font-weight: 300;
+}
+
+#navbar-show-btn {
+    background: transparent;
+    color: #ffffff;
+    font-size: 2rem;
+    opacity: 0.9;
+    transition: var(--trans);
+    border: none;
+}
+
+#navbar-show-btn:hover {
+    opacity: 1;
+}
+
+#navbar-collapse {
+    background-color: lightseagreen;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+}
+
+.navbar {
+    position: absolute;
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    overflow: visible;
+    position: relative;
+}
+
+nav ul li {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.2rem;
+    transition: transparent;
+}
+
+.nav-link:hover {
+    opacity: 0.8;
+}
+
+header {
+    min-height: 100vh;
+    padding-top: 7rem;
+    background: url("https://pixnio.com/free-images/2018/10/24/2018-10-24-11-04-19.jpg");
+    background-size: cover;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.topnav-centered {
+    display: flex;
+    align-items: center;
+}

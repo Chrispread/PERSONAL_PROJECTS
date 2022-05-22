@@ -1,0 +1,28 @@
+html, body{
+    font-family: "poppins";
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+a{
+    color: var(--dark);
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+button, input[type = "submit"] {
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: "Raleway", sans-seif;
+}
+.container{
+max-width: 1320px;
+padding: 9rem;
+margin: 0 auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
