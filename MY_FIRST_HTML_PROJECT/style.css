@@ -1,13 +1,9 @@
-h1 {
-    text-align: center;
-}
-
 p {
     text-align: center;
 }
 
 :root {
-    color: blue;
+    color: white;
     --light-grey: #f7f7f7 --black: #000000 --white: #ffffff
 }
 
@@ -15,9 +11,9 @@ p {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: lightseagreen;
-    padding: 1rem 0;
-    z-index: 999;
+    background-color: rgb(54, 38, 38);
+    padding: 0rem 0;
+    z-index: 500;
 }
 
 .navbar .container {
@@ -50,8 +46,7 @@ p {
 }
 
 #navbar-collapse {
-    background-color: lightseagreen;
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     width: 50%;
@@ -84,16 +79,63 @@ nav ul li {
 }
 
 header {
-    min-height: 100vh;
-    padding-top: 7rem;
-    background: url("https://pixnio.com/free-images/2018/10/24/2018-10-24-11-04-19.jpg");
-    background-size: cover;
-    flex-direction: column;
+    min-height: 40vh;
+    padding-top: 0rem;
+    background: url("https://c4.wallpaperflare.com/wallpaper/64/828/878/cold-dark-ice-landscapes-wallpaper-preview.jpg");
+     background-size: cover;
     text-align: center;
+    width: 110%;
 
 }
 
 .topnav-centered {
     display: flex;
     align-items: center;
+}
+.header-title h1{
+    font-size: 2rem;
+    text-align: center;
+}
+.featured-item{
+    position:absolute;
+    align-items: stretch;
+    width: 50%;
+    overflow: hidden;
+    transition: transparent;
+    float: right;
+    flex-direction: row;
+}
+.featured-item::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(to bottpm, transparent 0%,
+    transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
+}
+.featured-item-content{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    transform: translateY(62%);
+    transition: var(--trans);
+}
+
+.featured-item-content span{
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 1.2rem;
+}
+.featured-item-content .text{
+    color: black;
+    transition: var(trans);
+}
+.featured-item:hover .featured-item-content{
+    transform: translateY(0);
 }

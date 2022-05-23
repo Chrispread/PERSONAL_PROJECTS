@@ -26,3 +26,100 @@ margin: 0 auto;
     align-items: center;
     justify-content: center;
 }
+.text{
+    font-weight: 300;
+    opacity: 0.9;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    color: black;
+    flex: wrap;
+    
+}
+.form-control{
+    width: 100%;
+    margin: 0.6rem 0;
+    max-width: 500px;
+    border: 1px solid white;
+    border-radius: 0.2rem;
+    padding: 0.7rem;
+    font-family: sans-serif;
+    color: white;
+    background-color: transparent;
+}
+.btn{
+    padding: 0.7rem 2.4rem;
+    border-radius: 0.2rem;
+    font-weight: 600;
+    background-color: rgb(250, 249, 249);
+    color: rgb(46, 30, 30);
+    border: 1px solid grey;
+}
+.btn:hover{
+    opacity: 0.9;
+    transition: transparent;
+}
+
+.header-form{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0rem;
+    border-radius: 0.2rem;
+}
+
+.header-form h3{
+    font-size: 1.2rem;
+}
+.header-form form{
+    flex-direction: row;
+    margin-top: 1.2rem;
+}
+
+.header-form input[type = "date"]{
+    text-transform: uppercase;
+}
+.header-form input:not([type = "submit"])::placeholder{
+    color: white;
+}
+::-webkit-calendar-picker-indicator{
+    filter: inverter(1);
+
+}
+.header-form .btn{
+    margin-top: 0.8rem;
+}
+.header-form form{
+    flex-direction: row;
+    align-items: stretch;
+}
+.py-4{
+    padding: 4rem 0;
+}
+img{
+    width: 50%;
+    display: block;
+}
+.title-wrap{
+    text-align: center;
+    padding: 1.2rem 0;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;;
+}
+.lg-title{
+    font-size: 1.8rem;
+    color: black;
+}
+.my-2{
+    margin: 1rem 0;
+}
+.shadow:hover{
+    box-shadow: 0px, 0px, 18px, -4px rgba(109, 109, 109, 0.64);
+}
+
+@media screen and (max-width: 460px){
+    .featured-item-content{
+        transform: translateY(100%);
+    }
+}
+.featured-row{
+    display:flex;
+    
+}
