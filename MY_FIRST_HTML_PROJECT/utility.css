@@ -21,18 +21,21 @@ max-width: 1320px;
 padding: 9rem;
 margin: 0 auto;
 }
+
 .flex{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .text{
-    font-weight: 300;
+    font-weight: 200;
+    font-size: small;
+    text-align:justify;
     opacity: 0.9;
-    line-height: 1.6;
+    line-height: 1.9;
     letter-spacing: 1px;
     color: black;
-    flex: wrap;
+    text-overflow: clip;
     
 }
 .form-control{
@@ -60,8 +63,7 @@ margin: 0 auto;
 }
 
 .header-form{
-    background: rgba(0, 0, 0, 0.5);
-    padding: 0rem;
+    background: (var--trans);
     border-radius: 0.2rem;
 }
 
@@ -70,7 +72,7 @@ margin: 0 auto;
 }
 .header-form form{
     flex-direction: row;
-    margin-top: 1.2rem;
+    margin-block: 1rem;
 }
 
 .header-form input[type = "date"]{
@@ -90,9 +92,7 @@ margin: 0 auto;
     flex-direction: row;
     align-items: stretch;
 }
-.py-4{
-    padding: 4rem 0;
-}
+ 
 img{
     width: 50%;
     display: block;
@@ -101,25 +101,15 @@ img{
     text-align: center;
     padding: 1.2rem 0;
     margin-bottom: 2rem;
+    margin-left: 10rem;
     letter-spacing: 2px;;
 }
 .lg-title{
     font-size: 1.8rem;
     color: black;
 }
-.my-2{
-    margin: 1rem 0;
-}
+ 
 .shadow:hover{
     box-shadow: 0px, 0px, 18px, -4px rgba(109, 109, 109, 0.64);
 }
 
-@media screen and (max-width: 460px){
-    .featured-item-content{
-        transform: translateY(100%);
-    }
-}
-.featured-row{
-    display:flex;
-    
-}
