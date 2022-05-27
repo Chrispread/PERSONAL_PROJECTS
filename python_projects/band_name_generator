@@ -1,6 +1,7 @@
 #This is a simple program that suggests a band name to the user. 
 #The input function gets a prompt from the user 
 #And the print function outputs the suggested band name to the console.
+#paste this code in a text editor to see how it works.
 
 print("Welcome to the band name generator!")
 city = input("What city did you grow up in? \n")
