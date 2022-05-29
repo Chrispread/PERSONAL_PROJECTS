@@ -1,0 +1,14 @@
+#This is a simple tip calculator program that rounds off 
+#the final amount to two decimal places.
+#paste this code into a text editor to see how it works
+
+
+print("Welcome to the tip calculator!")
+bill = input("What was the total bill? $")
+tip = input("How much tip would you like to give? 10, 12, or 15? ")
+number_of_people = input("How many people to split the bill? ")
+
+tip_amount = int(bill) * float(tip)/100
+new_bill = int(bill) + tip_amount
+amount_to_pay =  new_bill / int(number_of_people)
+print(f"Each person should pay: ${amount_to_pay:.2f}")
