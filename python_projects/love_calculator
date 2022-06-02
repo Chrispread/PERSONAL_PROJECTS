@@ -9,8 +9,6 @@ print("Welcome to the Love Calculator!")
 name1 = input("What is your name? \n")
 name2 = input("What is their name? \n")
 
-name1 = name1.lower()
-name2 = name2.lower()
 combined_names = name1 + name2
 lowercase_string = combined_names.lower()
 
