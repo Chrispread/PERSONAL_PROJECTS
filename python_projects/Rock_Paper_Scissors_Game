@@ -1,6 +1,6 @@
-# This is a simple rock, paper, scissors game that i created with the
-# concept of python randomization module to generate a random choice for the computer,
-# and with the use of nested if, else and elif statements to compare the user's and
+# This is a simple rock, paper, scissors game that I created with the
+# concept of python random module to generate a random choice for the computer,
+# and also with the use of nested if, else and elif statements to compare the user's and
 # the computer's choice to determine the winner (or a draw).
 
 
